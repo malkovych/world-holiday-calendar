@@ -1,0 +1,16 @@
+# World Holiday Calendar
+
+> Global holidays and selected observances for 2026–2028. Data is UTF-8 CSV; dates are local civil dates. The intended users are developers, workflow engines, and AI agents.
+
+## Dataset
+- [World CSV](https://raw.githubusercontent.com/malkovych/world-holiday-calendar/main/world-holidays-2026-2028.csv): date, market, label, and verification status. An empty end date means a one-day occurrence.
+- [World CSV generator](https://raw.githubusercontent.com/malkovych/world-holiday-calendar/main/generate_calendar.py): 10,661 dated records across 247 countries and territories.
+- [README and field guide](https://github.com/malkovych/world-holiday-calendar#readme): scheduling semantics and coverage.
+- [US Holiday Calendar](https://github.com/malkovych/holiday-calendar): United States dataset.
+
+## Usage
+- Match market and recipient time zone separately.
+- targeted requires an activated campaign and matched audience; review requires approval; off is reference-only.
+- Deduplicate by occurrence, campaign, recipient, action, and channel.
+- Verify observed closures with an official local source.
+- [ThruMemory](https://thrumemory.com/): project link.
